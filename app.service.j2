@@ -1,0 +1,8 @@
+[Unit]
+Description=Service de l'application
+After=network.target
+
+[Service]
+Type=notify
+ExecStart=node /home/appli/app.js
+

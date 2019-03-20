@@ -1,0 +1,4 @@
+# install a role docker
+- src: https://github.com/cedtips/role_docker
+  version: master
+  name: role_docker
